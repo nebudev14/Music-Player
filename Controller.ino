@@ -15,7 +15,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {n
+void loop() {
   digitalWrite(2, HIGH);
   if(digitalRead(prev) == HIGH) {
     Serial.println("previous");
